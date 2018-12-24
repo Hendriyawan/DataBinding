@@ -28,7 +28,7 @@ class RecyclerRAdapter(var context: Context, var list: ArrayList<User>) : Recycl
     // Creating ViewHolder
     class ViewHolder(val binding: RecyclerItemBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(data: Any) {
-            binding.setVariable(BR.user, data) //BR - generated class; BR.user - 'user' is variable name declared in layout
+            binding.setVariable(BR.user, data) //BR - generated class; BR.user -- 'user' is variable name declared in layout
             binding.executePendingBindings()
         }
     }

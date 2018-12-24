@@ -1,4 +1,4 @@
-package com.yamikrish.databindingapp.adapter
+package com.yamikrish.databindingapp
 
 import android.content.Context
 import android.databinding.DataBindingUtil
